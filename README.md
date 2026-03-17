@@ -208,15 +208,14 @@ OnCalendar=*-*-* 09:00:00  # Daily at 9:00 AM
 ```
 📋 Daily Briefing — 2026-03-16 to 2026-03-17
 
-:small_orange_diamond: Executive Summary
+🔴  Executive Summary
 System health stable with 3 critical incidents resolved. One ongoing upgrade
 issue requires monitoring. ARO HCP experiencing intermittent DNS delays.
 
-:small_orange_diamond: :fire: Hot Threads
 🔴 ITN-2026-xxxx: Customer cluster stuck in upgrading state (OHSS-xxxx)
    Status: Engineering investigating CVO logs, RCA in progress
 
-:small_orange_diamond: 🔵 ROSA Support
+🔵 ROSA Support
 - 12 new support cases opened (8 upgrades, 3 networking, 1 authentication)
 - Case escalation: SREP-xxxx (P1 cluster unavailable)
 
