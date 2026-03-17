@@ -1,0 +1,66 @@
+# Sensitive configuration files (S7: never commit credentials)
+.mcp.json
+.briefing_thread.json
+.qa_listener.pid
+*.env
+.env*
+.env
+
+# ADDED: Summary output files (may contain sensitive channel data)
+briefing_summary_*.txt
+
+# Slack tokens and credentials
+*xoxc*
+*xoxd*
+
+# Output files
+briefing_*.txt
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Poetry
+poetry.lock
+.venv/
+env/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log

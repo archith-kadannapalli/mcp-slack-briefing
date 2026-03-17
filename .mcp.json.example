@@ -1,0 +1,38 @@
+{
+  "mcpServers": {
+    "ask-sre": {
+      "type": "stdio",
+      "command": "poetry",
+      "args": [
+        "run",
+        "ask-sre",
+        "mcp"
+      ],
+      "env": {}
+    },
+    "slack": {
+      "command": "podman",
+      "args": [
+        "run",
+        "-i",
+        "--rm",
+        "-e",
+        "SLACK_XOXC_TOKEN",
+        "-e",
+        "SLACK_XOXD_TOKEN",
+        "-e",
+        "LOGS_CHANNEL_ID",
+        "-e",
+        "MCP_TRANSPORT",
+        "quay.io/redhat-ai-tools/slack-mcp"
+      ],
+      "env": {
+        "SLACK_XOXC_TOKEN": "xoxc-YOUR-TOKEN-HERE",
+        "SLACK_XOXD_TOKEN": "xoxd-YOUR-TOKEN-HERE",
+        "SLACK_WORKSPACE_URL": "https://your-workspace.slack.com",
+        "LOGS_CHANNEL_ID": "C0XXXXXXXXX",
+        "MCP_TRANSPORT": "stdio"
+      }
+    }
+  }
+}
