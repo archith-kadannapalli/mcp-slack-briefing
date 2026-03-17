@@ -20,8 +20,6 @@ This system uses the **Model Context Protocol (MCP)** to connect Claude AI with 
 
 - **[SLACK_BRIEFING_SHOWCASE.md](SLACK_BRIEFING_SHOWCASE.md)** - Complete technical showcase and architecture
 - **[SLACK_BRIEFING_SOURCE_CODE.md](SLACK_BRIEFING_SOURCE_CODE.md)** - Full source code documentation (51KB+)
-- **[podmanlearn.md](podmanlearn.md)** - Podman container workflow explanation
-- **[cronlearn.md](cronlearn.md)** - Systemd timers vs cron comparison
 
 ## 🚀 Quick Start
 
