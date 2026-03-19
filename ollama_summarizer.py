@@ -213,7 +213,7 @@ Please create a daily briefing summary following the format specified.
             ],
             options={
                 "temperature": 0.3,  # Low temperature for factual summarization
-                "num_ctx": 8192,     # Context window for longer message sets
+                "num_ctx": 16384,     # Context window for longer message sets
             },
         )
 
@@ -295,7 +295,7 @@ Answer based ONLY on the context above. Cite which channel the information comes
             ],
             options={
                 "temperature": 0.2,  # Very low temp for factual Q&A
-                "num_ctx": 8192,
+                "num_ctx": 16384,
             },
         )
 
